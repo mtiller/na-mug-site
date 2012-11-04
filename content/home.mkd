@@ -1,0 +1,6 @@
+title: North America Modelica Users' Group
+slug: home
+type: index
+url: /index.html
+---
+

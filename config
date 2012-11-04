@@ -1,0 +1,4 @@
+site_title: North American Modelica Users' Group
+author: Michael Tiller <michael.tiller@xogeny.com>
+url_pattern: "/{category}/{slug}/{page}/index.html"
+url_include_index: no

@@ -1,0 +1,11 @@
+{% macro more(url) %}
+<a class="learn btn btn-primary btn-small"
+   href="{{url}}">Learn More&nbsp;&#187;</a>
+{% endmacro %}
+
+{% macro item(slug, url) %}
+  <dt>
+    <h4>{{slug | e}}</h4>
+  </dt>
+  <dd>{{ more(url) }}</dd>
+{% endmacro %}
