@@ -1,11 +1,16 @@
 {% extends "layout.html" %}
 
-{% block hero %}
-<div class="span12">
-  <h1>{{ page.title }}</h1>
+{% set email = {'info': 'info@na.modelica-users.org',
+		'membership': 'membership@na.modelica-users.org'} %}
 
-  <div>
-    {{ page.content }}
+{% block hero %}
+<div class="span12 well shadowy paddedTB">
+  <div class="paddedLR paddedTB">
+    <h1 class="paddedTB">{{ page.title }}</h1>
+
+    <div>
+      {{ page.content }}
+    </div>
   </div>
 </div>
 {% endblock %}

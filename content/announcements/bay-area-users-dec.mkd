@@ -1,18 +1,19 @@
 type: announcement
+category: announcement
 slug: bamm-dec
 title: Bay Area Modelica Meeting (Dec 13th, 10:00a.m.)
 ---
 
-# December Bay Area Modelica Meeting (BAMM)
+This is to announce the next meeting of the Bary Area Modelica Meeting (BAMM).
 
-## When
+#### When
 
 December 13th at 10:00a.m.
 
-## Where
+#### Where
 
 Cory 337A, Center for Hybrid and Embedded Software Systems (CHESS), University of Berkeley, Berkeley, CA
 
-## What
+#### What
 
 This meeting will feature a talk by Michael Wetter on "Numerical pitfalls when modeling thermofluid networks with feedback control".

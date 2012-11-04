@@ -1,6 +1,7 @@
 title: North America Modelica Users' Group
 slug: home
 type: index
+category: home
 url: /index.html
 ---
 

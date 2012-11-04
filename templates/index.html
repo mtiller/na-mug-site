@@ -1,8 +1,5 @@
 {% extends "layout.html" %}
 
-{% set email = {'info': 'info@na.modelica-users.org',
-		'membership': 'membership@na.modelica-users.org'} %}
-
 {% import "macros.html" as macros %}
 
 {% block register %}
@@ -25,35 +22,12 @@
 {% endblock %}
 
 {% block front_page %}
-<h2>Recent News</h2>
+<h2>Announcements</h2>
 
-<dl>
-  {{ macros.item("Register for the North America Modelica Users' Group Inaugural Conference", "/announcement") }}
-
-  {{ macros.item("Announcing the North America Modelica Users' Group", "/announcement") }}
-</dl>
-
-{#
-
-<h3>Announcing the North America Modelica Users&rsquo; Group</h3>
-
-<p>
-  Over the last few years, Modelica has spread dramatically beyond
-  Europe and is enjoying growing popularity in North America. In order
-  to address the issues that are often prevalent &ndash; and sometimes
-  unique &ndash; within North American industry and academia, the
-  North America Modelica Users&rsquo; Group has been established, with
-  the support of the Modelica Association.
-</p>
-
-<p>
-  If you are a Modelica user or you are considering Modelica for your
-  physical modeling projects, and work in North America then this is
-  the ideal forum for exchanging ideas, addressing modeling problems
-  and promoting the North American perspective within the Modelica
-  Association.
-</p>
-
-#}
+<ul>
+{% for a in site.categories['announcement'] %}
+  {{ macros.item(a.title, a.url) }}
+{% endfor %}
+</ul>
 
 {% endblock %}

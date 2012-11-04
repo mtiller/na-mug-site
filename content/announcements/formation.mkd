@@ -4,8 +4,6 @@ slug: namu
 title: Announcing the North America Modelica Users' Group
 ---
 
-# Announcing the North America Modelica Users' Group
-
 Over the last few years, Modelica has spread dramatically beyond
 Europe and is enjoying growing popularity in North America. In order
 to address the issues that are often prevalent &ndash; and sometimes
