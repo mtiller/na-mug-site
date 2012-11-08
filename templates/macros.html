@@ -5,7 +5,15 @@
 
 {% macro item(date, slug, url) %}
   <li>
-    <p><strong><a href="{{url}}">{{slug | e}}</a><strong> <span class="muted">{{ date }}</span></p>
+    <p>
+      <strong>
+	<a href="{{url}}">{{slug | e}}</a>
+      </strong>
+      &nbsp;
+      <span class="badge muted">
+	{{ date.strftime("%B %e, %Y") }}
+      </span>
+    </p>
   </li>
   {# <dd>{{ more(url) }}</dd> #}
 {% endmacro %}
