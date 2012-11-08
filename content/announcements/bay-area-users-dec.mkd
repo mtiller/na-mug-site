@@ -2,6 +2,7 @@ type: announcement
 category: announcement
 slug: bamm-dec
 title: Bay Area Modelica Meeting (Dec 13th, 10:00a.m.)
+date: 2012-11-01
 ---
 
 This is to announce the next meeting of the Bary Area Modelica Meeting (BAMM).

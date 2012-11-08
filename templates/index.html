@@ -26,7 +26,7 @@
 
 <ul>
 {% for a in site.categories['announcement'] %}
-  {{ macros.item(a.title, a.url) }}
+  {{ macros.item(a.date, a.title, a.url) }}
 {% endfor %}
 </ul>
 

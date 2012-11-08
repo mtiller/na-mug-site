@@ -3,9 +3,9 @@
    href="{{url}}">Learn More&nbsp;&#187;</a>
 {% endmacro %}
 
-{% macro item(slug, url) %}
+{% macro item(date, slug, url) %}
   <li>
-    <h3 class="paddedTB"><a href="{{url}}">{{slug | e}}</a></h3>
+    <p><strong><a href="{{url}}">{{slug | e}}</a><strong> <span class="muted">{{ date }}</span></p>
   </li>
   {# <dd>{{ more(url) }}</dd> #}
 {% endmacro %}
