@@ -1,0 +1,24 @@
+body {
+    margin-top: 20px;
+}
+
+.learn {
+    margin: 5px;
+    margin-bottom: 20px;
+}
+
+.shadowy {
+    -moz-box-shadow: 3px 3px 5px 0px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 0px #ccc;
+    box-shadow: 3px 3px 5px 0px #ccc;
+}
+
+.paddedTB {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.paddedLR {
+    padding-left: 20px;
+    padding-right: 20px;
+}
