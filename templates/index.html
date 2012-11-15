@@ -25,8 +25,8 @@
 <h2>Announcements</h2>
 
 <ul>
-{% set anns = site.categories['announcement'][:5] %}
-{% for a in anns|sort(attribute='date',reverse=True) %}
+{% set anns = site.categories['announcement']|sort(attribute='date',reverse=True) %}
+{% for a in anns[:5] %}
   {{ macros.item(a.date, a.title, a.url) }}
 {% endfor %}
 </ul>
