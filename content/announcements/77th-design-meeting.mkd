@@ -1,0 +1,21 @@
+type: announcement
+category: announcement
+slug: des77
+title: 77th Modelica Design Meeting
+date: 2012-11-15
+---
+
+#### When
+
+December 3rd-5th, 2012
+
+#### Summary
+
+The 77th Modelica Design Meeting will be hosted by Maplesoft, and held
+at the University of Waterloo, in Waterloo (Ontario, Canada).  If you
+would like to attend the meeting, please send an email to
+[Martin.Otter@dlr.de](mailto:Martin.Otter@dlr.de).
+
+Full details about the meeting (including travel and accomodation
+information) are available at
+[https://www.modelica.org/events/design_meetings/des77](https://www.modelica.org/events/design_meetings/des77).
