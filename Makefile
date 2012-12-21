@@ -5,4 +5,4 @@ all:
 	cp -r output/* heroku
 
 push: all
-	(cd heroku; git commit -a -m "Latest changes"; git push heroku master)
+	(cd heroku; git add .; git commit -a -m "Latest changes"; git push heroku master)

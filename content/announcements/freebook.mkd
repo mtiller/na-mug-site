@@ -1,0 +1,21 @@
+type: announcement
+category: announcement
+slug: freebook
+title: Free Modelica Book Deadline
+date: 2012-11-20
+---
+
+Michael Tiller has launched [a Kickstarter
+project](http://www.kickstarter.com/projects/1604984445/creative-commons-modelica-book)
+to fund the writing of a book on Modelica 3.3.  His plan is to release
+an HTML version of the book under a [Creative Commons (NC-ND)
+License](http://creativecommons.org/licenses/by-nc-nd/3.0/).  This
+means that anybody with access to the internet will have free access
+to the book.
+
+But this project needs your support.  The project won't take place
+unless a minimum funding goal is reached.  **The deadline for this
+project is December 4th**.  So if you'd like to help, visit [the
+project home
+page](http://www.kickstarter.com/projects/1604984445/creative-commons-modelica-book)
+and make a contribution.
