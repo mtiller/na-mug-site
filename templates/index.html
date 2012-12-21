@@ -2,25 +2,6 @@
 
 {% import "macros.html" as macros %}
 
-{% block register %}
-<p>
-  <a class="paddedLR pull-left" href="mailto:{{email.membership}}">
-    <img src="/static/img/register.jpg" alt="Register Today!"/>
-  </a>
-  To register as a member of the <br/>
-  <strong> North America Modelica Users&rsquo; Group</strong>, just
-  send us <a href="mailto:{{email.membership}}">an email</a>.
-</p>
-
-<p>
-  <a href="https://twitter.com/NAModelicaUsers"
-     class="twitter-follow-button" data-show-count="false">
-    Follow @NAModelicaUsers</a>
-  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-  </script>
-</p>
-{% endblock %}
-
 {% block front_page %}
 <h2>Announcements</h2>
 
@@ -32,3 +13,4 @@
 </ul>
 
 {% endblock %}
+
