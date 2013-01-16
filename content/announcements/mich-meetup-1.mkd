@@ -1,0 +1,28 @@
+type: announcement
+category: announcement
+slug: mich-meetup-1
+title: Michigan Modelica Users Meetup (Jan 23rd, 6:00 p.m.)
+date: 2013-01-16
+---
+
+This will be the first gathering of the (Southeast) Michigan Modelica Users.
+
+#### When
+
+January 23<sup>rd</sup>, 2013 at 6:00 p.m.
+
+#### Where
+
+This meetup is being hosted by [Modelon](http://www.modelon.com) and
+will take place at [The Workantile Exchange](http://workantile.com/)
+in downtown Ann Arbor.
+
+* [Google Map Link](http://maps.google.com/maps?q=workantile&hl=en&ll=42.280865,-83.748565&spn=0.011161,0.011716&sll=42.27332,-83.737689&sspn=0.17859,0.187454&hq=workantile&t=m&z=16)
+
+There are multiple parking garages in the area.  The closest one is on Washington between Fourth and Main.
+
+#### Agenda
+
+* 1-2 Presentation(s) [TBD]
+* Discussion on when, where and how often to meet.
+* Socializing (at some nearby restaurant)
